@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Parallax</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <style>*{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body{
+        margin:0;
+        padding:0;
+        display:grid;
+        place-items:center;
+        
+    }
+    .seasons{
+        font-family:"Quicksand";
+        height:100vh;
+        width:100%;
+        background-size: cover;
+        background-attachment:fixed;
+        line-height: 2;
+    }
+    .seasonal{
+        background-image: url("seasons.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .summer{
+        background-image: url("summer.jpg");
+    }
+    .winter{
+        background-image: url("winter.jpg");
+    }
+    .autumn{
+        background-image: url("autum.jpg");
+    }
+    .spring{
+        background-image: url("spring.jpg");
+    }
+    .rainy{
+        background-image: url("rainy.jpg");
+    }
+    .coint2{
+        background-color: white;
+        padding: 10px;
+        transition: background-color 1s;
+    }
+    .Heading{
+        padding-top: 400px;
+    }
+    .Heading>div{
+        display: inline-block;
+        /*background-image: linear-gradient(to right,rgb(170, 169, 169),rgb(68, 67, 67));*/
+        background-color: black;
+        border-radius: 10px;
+        padding: 18px;
+        font-weight: bolder;
+        color:rgb(185, 185, 185);
+    }
+    .coint2>h2:hover{
+        text-shadow: 2px 2px rgba(102, 100, 100,0.5);
+    }
+    .effect{
+        transition: background-color  1s; 
+    }
+    .effect:hover{
+        transform:scale(1.0);
+        background-color: rgb(39, 39, 39);
+        color:white;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 5px 10px rgba(0, 0, 0,0.15);
+
+    }
+    
+
+    </style>
+</head>
+<body>
+    <div class="seasons seasonal">
+        <div class="Heading" align="center">
+            <div>Explore the Magic of seasons </div>
+            
+        </div>
+    </div>
+
+
+    <div class="seasons summer">
+        <div class="coint2" id="Para">
+            <h2>Summer</h2>
+            <div class="effect"><p>From an astronomical view, the equinoxes and solstices would be the middle of the respective seasons, but 
+                sometimes astronomical summer is defined as starting at the solstice, the time of maximal insolation, often 
+                identified with 21 June or 21 December. By solar reckoning, summer instead starts on May Day and the summer 
+                solstice is Midsummer. A variable seasonal lag means that the meteorological centre of the season, which is based 
+                on average temperature patterns, occurs several weeks after the time of maximal insolation.The meteorological 
+                convention is to define summer as comprising the months of June, July, and August in the northern hemisphere and 
+                the months of December, January, and February in the southern hemisphere. Under meteorological definitions, 
+                all seasons are arbitrarily set to start at the beginning of a calendar month and end at the end of a month.
+                 This meteorological definition of summer also aligns with the commonly viewed notion of summer as the season with
+                  the longest (and warmest) days of the year, in which daylight predominates.In some Southern Hemisphere countries 
+                  such as Brazil, Argentina, South Africa, Australia and New Zealand, summer is associated with the Christmas and 
+                  New Year holidays. Many families take extended holidays for two or three weeks or longer during summer.</p></div>      
+        </div>
+    </div>
+
+    <div class="seasons winter">
+        <div class="coint2">
+            <h2>Winter</h2>
+            <div class="effect"><p>The tilt of the Earth's axis relative to its orbital plane plays a large role in the formation of weather. 
+                The Earth is tilted at an angle of 23.44° to the plane of its orbit, causing different latitudes to directly face
+                 the Sun as the Earth moves through its orbit. This variation brings about seasons. When it is winter in the
+                  Northern Hemisphere, the Southern Hemisphere faces the Sun more directly and thus experiences warmer temperatures
+                   than the Northern Hemisphere. Conversely, winter in the Southern Hemisphere occurs when the Northern Hemisphere 
+                   is tilted more toward the Sun. From the perspective of an observer on the Earth, the winter Sun has a lower 
+                   maximum altitude in the sky than the summer Sun. During winter in either hemisphere, the lower altitude of the 
+                   Sun causes the sunlight to hit the Earth at an oblique angle. Thus a lower amount of solar radiation strikes the
+                    Earth per unit of surface area.In the Northern Hemisphere, some authorities define the period of winter based 
+                    on astronomical fixed points (i.e. based solely on the position of the Earth in its orbit around the Sun), 
+                    regardless of weather conditions</p> </div>     
+        </div>
+    </div>
+
+    <div class="seasons autumn">
+        <div class="coint2">
+            <h2>Autumn</h2>
+           <div class="effect"><p>From an astronomical view, the equinoxes and solstices would be the middle of the respective seasons, but 
+                sometimes astronomical summer is defined as starting at the solstice, the time of maximal insolation, often 
+                identified with 21 June or 21 December. By solar reckoning, summer instead starts on May Day and the summer 
+                solstice is Midsummer. A variable seasonal lag means that the meteorological centre of the season, which is based 
+                on average temperature patterns, occurs several weeks after the time of maximal insolation.The meteorological 
+                convention is to define summer as comprising the months of June, July, and August in the northern hemisphere and 
+                the months of December, January, and February in the southern hemisphere. Under meteorological definitions, 
+                all seasons are arbitrarily set to start at the beginning of a calendar month and end at the end of a month.
+                 This meteorological definition of summer also aligns with the commonly viewed notion of summer as the season with
+                  the longest (and warmest) days of the year, in which daylight predominates.In some Southern Hemisphere countries 
+                  such as Brazil, Argentina, South Africa, Australia and New Zealand, summer is associated with the Christmas and 
+                  New Year holidays. Many families take extended holidays for two or three weeks or longer during summer.</p>  </div>     
+        </div>
+    </div>
+
+    <div class="seasons spring">
+        <div class="coint2">
+            <h2>Spring</h2>
+            <div class="effect"><p>Spring, also known as springtime, is one of the four temperate seasons, succeeding winter and preceding summer. 
+                There are various technical definitions of spring, but local usage of the term varies according to local climate, 
+                cultures and customs. When it is spring in the Northern Hemisphere, it is autumn in the Southern Hemisphere and
+                 vice versa. At the spring (or vernal) equinox, days and nights are approximately twelve hours long, with daytime 
+                 length increasing and nighttime length decreasing as the season progresses until the Summer Solstice in June 
+                 (Northern Hemisphere) and December (Southern Hemisphere). Spring and "springtime" refer to the season, and also 
+                 to ideas of rebirth, rejuvenation, renewal, resurrection and regrowth. Subtropical and tropical areas have 
+                 climates better described in terms of other seasons, e.g. dry or wet, monsoonal or cyclonic. Cultures may have 
+                 local names for seasons which have little equivalence to the terms originating in Europe.</p>      
+        </div></div>
+    </div>
+
+    <div class="seasons rainy">
+        <div class="coint2">
+            <h2>Monsoon</h2>
+           <div class="effect"> <p>From an astronomical view, the equinoxes and solstices would be the middle of the respective seasons, but 
+                sometimes astronomical summer is defined as starting at the solstice, the time of maximal insolation, often 
+                identified with 21 June or 21 December. By solar reckoning, summer instead starts on May Day and the summer 
+                solstice is Midsummer. A variable seasonal lag means that the meteorological centre of the season, which is based 
+                on average temperature patterns, occurs several weeks after the time of maximal insolation.The meteorological 
+                convention is to define summer as comprising the months of June, July, and August in the northern hemisphere and 
+                the months of December, January, and February in the southern hemisphere. Under meteorological definitions, 
+                all seasons are arbitrarily set to start at the beginning of a calendar month and end at the end of a month.
+                 This meteorological definition of summer also aligns with the commonly viewed notion of summer as the season with
+                  the longest (and warmest) days of the year, in which daylight predominates.In some Southern Hemisphere countries 
+                  such as Brazil, Argentina, South Africa, Australia and New Zealand, summer is associated with the Christmas and 
+                  New Year holidays. Many families take extended holidays for two or three weeks or longer during summer.</p>      
+        </div></div>
+    </div>
+
+</body>
+</html>
